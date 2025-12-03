@@ -1,0 +1,108 @@
+.container{
+    height: 600px;
+    background-color: rgb(240, 220, 36);
+    border: 2px solid black;
+    border-style: dotted;
+    margin:10px 10px 10px 10px;
+    padding:10px;
+    display :flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image :url(assets1/images\ wo.jpg);
+    
+}
+form{
+    border: 4px solid black;
+    border-style: double;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(0, 124, 128);
+    box-shadow: 5px 5px 15px grey;
+    border-radius: 10px;
+    
+
+}
+.container input{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    display :flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 5px 5px 15px grey;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.login-container{
+     height: 600px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-style: dotted;
+    margin:10px 10px 10px 10px;
+    padding:10px;
+    display :flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image :url(assets/images.jpg);
+}
+
+.login-container input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    display :flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 5px 5px 15px grey;
+}
+.header-container{
+    padding: 10px;
+    background-color: rgb(182, 214, 20);
+    color: white;
+    display: flex;
+    gap: 550px;
+    justify-content: space-evenly;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: -20px;
+}
+.head-container{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    gap:20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: lightgray;
+
+}
+a:hover{
+    background-color: gray;
+    color: white;
+    letter-spacing: -1px;
+}
